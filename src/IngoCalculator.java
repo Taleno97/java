@@ -14,17 +14,19 @@ public class IngoCalculator{
     }
 
     public static int bestimmeRechenOperation(){
-
+        int ergebnis;
         switch(rechnung){
             case 1:
-                int ergebnis = Zahl1 + Zahl2;
-                return ergebnis;
+                return ergebnis = Zahl1 + Zahl2;
             case 2:
-
+                return ergebnis = Zahl1 * Zahl2;
             case 3:
-
+                return ergebnis = Zahl1 - Zahl2;
             case 4:
+                return ergebnis = Zahl1 / Zahl2;
+            default:
+                System.out.println("Error!");
+                break;
         }
     }
 }
-
